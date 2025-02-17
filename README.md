@@ -1,4 +1,4 @@
-# Data Communication Lab
+# 💻 Data Communication Lab
 
 <div align="right">
     <p>
@@ -8,7 +8,7 @@
     </p>
 </div>
 
-This is an archive of Data Communication Lab codes.
+This is an archive of Data Communication Lab codes 💻.
 
 <p align="left">
         <a href="https://skillicons.dev">
