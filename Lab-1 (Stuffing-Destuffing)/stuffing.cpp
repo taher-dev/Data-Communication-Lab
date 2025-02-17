@@ -16,8 +16,8 @@ void stuffing(int arr[], int size)
     else
     {
         int count = 0;
-        int i = 0;
-        int j = 0;
+        int i = 0; // For arr
+        int j = 0; // For result
         while (i < size)
         {
             result[j] = arr[i];
