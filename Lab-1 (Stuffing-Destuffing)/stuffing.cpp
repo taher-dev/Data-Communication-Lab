@@ -16,8 +16,9 @@ void stuffing(int arr[], int size)
     else
     {
         int count = 0;
-        int i = 0; // For arr
-        int j = 0; // For result
+        int i = 0;     // For arr
+        int j = 1;     // For result
+        result[0] = 0; // Starting flag
         while (i < size)
         {
             result[j] = arr[i];
@@ -40,8 +41,9 @@ void stuffing(int arr[], int size)
                 count = 0;
             }
         }
+        result[j] = 0; // Ending flag
         cout << "After Stuffing:\n";
-        for (i = 0; i < j; i++)
+        for (i = 0; i <= j; i++)
         {
             cout << result[i] << " ";
         }
