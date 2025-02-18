@@ -57,6 +57,7 @@ int main()
     cin >> size;
     int arr[size];
 
+    cout << "Enter arr: ";
     for (int &x : arr)
     {
         cin >> x;

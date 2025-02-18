@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void stuffing(int arr[], int size)
+void destuffing(int arr[], int size)
 {
     int result[30];
 
@@ -54,12 +54,13 @@ int main()
     cin >> size;
     int arr[size];
 
+    cout << "Enter arr: ";
     for (int &x : arr)
     {
         cin >> x;
     }
 
-    stuffing(arr, size);
+    destuffing(arr, size);
 
     return 0;
 }
