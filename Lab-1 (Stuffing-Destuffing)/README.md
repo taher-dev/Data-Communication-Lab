@@ -19,6 +19,6 @@ Flag: *F*, Escape sequence: *E*
 
 Array: A B F C E
 
-After stuffing: A B <span style="color: green; font-weight: bold;">E</span> F C <span style="color: green; font-weight: bold;">E</span> E
+After stuffing: A B **E** F C **E** E
 
 (stuffed E before F and E)
